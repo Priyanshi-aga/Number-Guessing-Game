@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fae8eb;
+}
+
+.container{
+    width: 500px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color:#f6caca;
+    height: 300px;
+    border:10px solid #e4c2c6 ;
+    border-radius: 10px;
+}
+
+.input{
+    display: flex;
+    padding: 0px 10px;
+    gap: 5px;
+}
+
+.input input{
+    flex-grow: 1;
+}
+
+.result-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 15px;
+}
